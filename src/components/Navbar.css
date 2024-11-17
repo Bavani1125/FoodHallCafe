@@ -1,0 +1,61 @@
+/* Navbar Styling */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #3a6249e9; /* Dark green background */
+  padding: 8px 20px; /* Reduced padding for a slimmer navbar */
+  color: #ffffff; /* White text */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Slightly smaller shadow */
+}
+
+/* Logo Styling */
+.logo {
+  font-family: 'Arial', sans-serif; /* Or your preferred font */
+  font-size: 1.8rem; /* Reduced font size for a smaller logo */
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #ffffff; /* White text color */
+  -webkit-text-stroke: 0.5px #3a6249; /* Adjusted thinner stroke */
+  text-stroke: 1px #3a6249;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Slightly smaller shadow */
+}
+
+/* Navigation Links Styling */
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 15px; /* Reduced spacing between links */
+}
+
+.nav-links li a {
+  font-family: 'Roboto', sans-serif;
+  color: #cee3d4; /* Soft pastel for links */
+  text-decoration: none;
+  font-size: 0.9rem; /* Reduced font size */
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.nav-links li a:hover {
+  color: #f1c40f; /* Golden color on hover */
+  transform: scale(1.05); /* Subtle zoom effect */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px; /* Compact padding on smaller screens */
+  }
+
+  .nav-links {
+    flex-direction: column;
+    gap: 10px; /* Reduced gap between links on smaller screens */
+    margin-top: 10px;
+  }
+
+  .nav-links li a {
+    font-size: 1rem; /* Slightly larger for better readability on smaller screens */
+  }
+}

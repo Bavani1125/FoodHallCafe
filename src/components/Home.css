@@ -1,0 +1,139 @@
+/* General Home Section Styling */
+.home {
+  text-align: center;
+  background: #bed6c0;
+  padding: 50px 20px;
+}
+
+.home-content {
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 800px;
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeIn 1s ease-out forwards; /* Fade-in effect */
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.home-content h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  color: #2c3e50;
+  font-family: 'Playfair Display', serif;
+}
+
+.home-content p {
+  font-size: 1.1rem;
+  color: #7f8c8d;
+  line-height: 1.8;
+}
+
+/* Carousel Section */
+.carousel {
+  position: relative;
+  width: 70%;
+  height: 70vh;
+  margin: 40px auto;
+  overflow: hidden;
+  border-radius: 15px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.carousel-slide {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.carousel-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.image-text {
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  max-width: 80%;
+}
+
+/* Specific Styling for Each Image's Text */
+.cafe-text {
+  background-color: rgba(34, 139, 34, 0.7); /* Green */
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+.coffee-text {
+  background-color: rgba(139, 69, 19, 0.7); /* Brown */
+  color: #fff;
+  font-style: italic;
+}
+
+.bakery-text {
+  background-color: rgba(255, 165, 0, 0.7); /* Orange */
+  color: #333;
+  font-weight: bold;
+}
+
+.food-text {
+  background-color: rgba(220, 20, 60, 0.7); /* Crimson */
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.people-text {
+  background-color: rgba(70, 130, 180, 0.7); /* Steel Blue */
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+/* Carousel Buttons */
+.carousel-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 2rem;
+  cursor: pointer;
+  border-radius: 50%;
+  z-index: 10;
+}
+
+.prev-btn {
+  left: 20px;
+}
+
+.next-btn {
+  right: 20px;
+}
+
+.carousel-btn:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.decorative-divider {
+  width: 80%;
+  height: 2px;
+  background: linear-gradient(to right, #2c3e50, #bed6c0, #2c3e50);
+  margin: 20px auto;
+  border: none;
+  border-radius: 5px;
+}
+

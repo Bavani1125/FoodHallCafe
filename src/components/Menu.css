@@ -1,0 +1,112 @@
+/* General Menu Styling */
+.menu {
+  padding: 40px;
+  max-width: 1000px;
+  margin: 50px auto;
+  font-family: 'Lora', serif; /* Modern and elegant serif font */
+  background: #409485; /* Subtle light-gray background */
+  border-radius: 15px; /* Smooth rounded edges */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1); /* Professional soft shadow */
+  border: 1px solid #ddd; /* Thin border for structure */
+}
+
+/* Menu Title */
+.menu h2 {
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 40px;
+  color: #2c3e50; /* Deep, modern blue-gray */
+  font-family: 'Playfair Display', serif; /* Elegant serif font for the title */
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 10px;
+}
+
+/* Menu Section Styling */
+.menu-section {
+  margin-bottom: 50px;
+}
+
+.menu-section h3 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #34495e; /* Strong dark gray for contrast */
+  font-family: 'Roboto', sans-serif; /* Clean sans-serif for sections */
+  text-transform: uppercase;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+}
+
+/* Menu Items List */
+.menu-section ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu-section li {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 20px 0;
+  font-size: 1.3rem;
+  color: #2c3e50;
+  background: #ffffff; /* White background for clarity */
+  padding: 15px 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05); /* Subtle shadow for depth */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.menu-section li:hover {
+  transform: translateY(-3px); /* Lift effect on hover */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Enhance shadow on hover */
+}
+
+/* Item Name and Description Styling */
+.item-details {
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+}
+
+.item-name {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #2c3e50;
+}
+
+.item-description {
+  font-size: 1rem;
+  color: #7f8c8d; /* Subtle gray for descriptions */
+  margin-top: 5px;
+  font-style: italic;
+}
+
+/* Price Styling */
+.item-price {
+  flex: 1;
+  text-align: right;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #16a085; /* Professional green for prices */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .menu {
+    padding: 20px;
+    font-size: 1rem;
+  }
+
+  .menu-section li {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .item-price {
+    text-align: left;
+    margin-top: 10px;
+  }
+}

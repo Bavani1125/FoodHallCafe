@@ -1,0 +1,94 @@
+/* General Menu Container Styling */
+.menu {
+  padding: 20px;
+  max-width: 900px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+}
+
+.menu h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  color: #333;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* Section Styling */
+.menu-section {
+  margin-bottom: 40px;
+}
+
+.menu-section h3 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  color: #444;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 10px;
+  text-transform: capitalize;
+}
+
+/* List Styling */
+.menu-section ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu-section li {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 12px 0;
+  font-size: 1.2rem;
+  color: #333;
+  border-bottom: 1px dotted #ccc;
+  padding-bottom: 10px;
+}
+
+/* Styling for Item Details */
+.item-details {
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+}
+
+.item-name {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.item-description {
+  font-size: 0.9rem;
+  color: #777;
+  margin-top: 5px;
+  font-style: italic;
+}
+
+/* Styling for Prices */
+.item-price {
+  flex: 1;
+  text-align: right;
+  font-weight: bold;
+  color: #444;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .menu {
+    padding: 15px;
+    font-size: 1rem;
+  }
+
+  .menu-section li {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .item-price {
+    text-align: left;
+    margin-top: 5px;
+  }
+}

@@ -1,0 +1,22 @@
+/* Footer Section */
+.footer {
+    background: #3a6249; /* Dark green background */
+    color: #ffffff; /* White text for contrast */
+    text-align: center;
+    padding: 20px 10px; /* Comfortable padding */
+    font-size: 1rem; /* Default readable font size */
+    font-family: 'Roboto', sans-serif;
+    box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow at the top */
+  }
+  
+  /* Hover Effect (Optional for Links in Footer if added later) */
+  .footer a {
+    color: #f1c40f; /* Golden yellow for links */
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .footer a:hover {
+    color: #ffffff; /* White color on hover */
+  }
+  
