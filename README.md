@@ -1,7 +1,12 @@
 Food Hall Cafe Website:
-This project is a modern web application for a café, developed using Create React App. It includes essential sections such as Home, Menu, Catering, About, and Contact, with features like a responsive design and carousel functionality.
+This project is a modern web application for a cafe, developed using Create React App. It includes essential sections such as Home, Menu, Catering, About, and Contact, with features like a responsive design and carousel functionality.
 
 ![image](https://github.com/user-attachments/assets/b82e68d9-c3f3-4067-9939-30d6a4e8c828)
+![image](https://github.com/user-attachments/assets/21b469be-31c0-406f-9892-afa8d683629a)
+![image](https://github.com/user-attachments/assets/ca359a03-3039-417e-931b-29e6f90fb7b0)
+![image](https://github.com/user-attachments/assets/3a5ad79a-658d-4979-bfad-2d5e32d95135)
+![image](https://github.com/user-attachments/assets/2d316cb0-52bf-4baf-8823-573a28877417)
+
 
 Features:
 Responsive Design: Optimized for all screen sizes and devices.
